@@ -15,6 +15,7 @@ footer a {
   font-weight: 500;
   margin-bottom: 2rem;
   display: inline-block;
+  cursor: pointer;
 }
 
 .permalinks {
@@ -23,6 +24,10 @@ footer a {
   justify-content: center;
   gap: 2rem;
   margin: 0 auto 3rem;
+}
+
+.permalinks > li {
+  cursor: pointer;
 }
 
 .footer__socials {

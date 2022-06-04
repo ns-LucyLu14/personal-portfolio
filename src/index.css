@@ -37,9 +37,9 @@
   --transition: all 0.4s ease;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 ::-webkit-scrollbar {
   display: none;

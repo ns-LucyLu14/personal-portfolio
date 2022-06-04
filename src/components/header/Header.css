@@ -171,6 +171,7 @@ h2 > span:hover {
   display: flex;
   gap: 14px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .scroll__down__icon {

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import "./Header.css";
 
@@ -74,16 +75,22 @@ const Header = () => {
           />
         </motion.div>
 
-        <motion.a
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.3, duration: 0.8 }}
-          href="#contact"
-          className="scroll__down"
         >
-          Scroll Down
-          <CgMouse className="scroll__down__icon" />
-        </motion.a>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="scroll__down"
+          >
+            Scroll Down
+            <CgMouse className="scroll__down__icon" />
+          </Link>
+        </motion.div>
       </div>
     </header>
   );

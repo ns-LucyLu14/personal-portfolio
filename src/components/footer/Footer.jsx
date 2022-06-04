@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./Footer.css";
 
 import { FaFacebookF } from "react-icons/fa";
@@ -9,31 +10,51 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
-      <a href="#home" className="footer__logo">
+      <Link
+        to="home"
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="footer__logo"
+      >
         DL
-      </a>
+      </Link>
 
       <ul className="permalinks">
         <li>
-          <a href="#home">Home</a>
+          <Link to="home" spy={true} smooth={true} duration={500}>
+            Home
+          </Link>
         </li>
         <li>
-          <a href="#about">About</a>
+          <Link to="about" spy={true} smooth={true} duration={500}>
+            About
+          </Link>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <Link to="experience" spy={true} smooth={true} duration={500}>
+            Experience
+          </Link>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <Link to="services" spy={true} smooth={true} duration={500}>
+            Services
+          </Link>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <Link to="portfolio" spy={true} smooth={true} duration={500}>
+            Portfolio
+          </Link>
         </li>
         <li>
-          <a href="#testimonials">Certificates</a>
+          <Link to="testimonials" spy={true} smooth={true} duration={500}>
+            Certificates
+          </Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link to="contact" spy={true} smooth={true} duration={500}>
+            Contact
+          </Link>
         </li>
       </ul>
 
