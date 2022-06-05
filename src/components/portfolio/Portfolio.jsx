@@ -90,10 +90,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG4} alt="project4" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Blog page - demo</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com"
+              href="https://github.com/ns-LucyLu14/blog-page-demo"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -101,7 +101,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://youtube.com"
+              href="https://medium-blog-page-demo.vercel.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -114,10 +114,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG5} alt="project5" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>NS Creative Studio - demo</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com"
+              href="https://github.com/ns-LucyLu14/ns-page-first"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -125,7 +125,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://youtube.com"
+              href="https://nscreativestudio-demo.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
