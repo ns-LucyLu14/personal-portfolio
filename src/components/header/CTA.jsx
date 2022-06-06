@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import CV from "../../assets/CV-Domagoj-Lucic-dark.pdf";
 
@@ -13,9 +14,15 @@ const CTA = () => {
       <a href={CV} download className="btn">
         Download CV
       </a>
-      <a href="#contact" className="btn btn-primary">
+      <Link
+        to="contact"
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="btn btn-primary"
+      >
         Let's Talk
-      </a>
+      </Link>
     </motion.div>
   );
 };

@@ -46,7 +46,7 @@ const Header = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
           >
-            <span>Domagoj Lučić</span>
+            Domagoj Lučić
           </motion.h2>
           <motion.h3
             initial={{ opacity: 0 }}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./About.css";
 
 // import ME from "../../assets/me-test.jpeg";
@@ -75,9 +76,15 @@ const About = () => {
             experience.
           </p>
 
-          <a href="#contact" className="btn btn-primary">
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="btn btn-primary"
+          >
             Let's Talk
-          </a>
+          </Link>
         </div>
       </div>
     </section>

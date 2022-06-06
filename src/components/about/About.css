@@ -27,9 +27,9 @@
   transition: var(--transition); */
 }
 
-.about__me img:hover {
+/* .about__me img:hover {
   transform: rotate(0);
-}
+} */
 
 .about__cards {
   display: grid;
@@ -47,11 +47,11 @@
   transition: var(--transition);
 }
 
-.about__card:hover {
+/* .about__card:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
-}
+} */
 
 .about__icon {
   color: var(--color-primary);
